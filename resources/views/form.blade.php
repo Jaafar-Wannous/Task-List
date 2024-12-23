@@ -28,7 +28,7 @@
         </div>
 
         <div class="mb-4">
-            <label for="long_description">Description</label>
+            <label for="long_description">Long Description</label>
             <textarea name="long_description" id="long_description" cols="30" rows="10" @class(['border-red-500' => $errors->has('title')])>
                 {{ $task->long_description ?? old('long_description') }}</textarea>
             @error('long_description')

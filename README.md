@@ -59,7 +59,11 @@ This is a simple Task List application built with Laravel. It allows users to ma
 
 ## Screenshots
 
-_Add screenshots of your application here._
+### Task List
+![Task List](screenshots/task-list.png)
+
+### Flash Message
+![Add New Task](screenshots/on-add-new-task.png)
 
 ## Future Improvements
 
